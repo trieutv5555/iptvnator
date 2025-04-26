@@ -1,0 +1,333 @@
+{
+  "CLOSE": "Đóng",
+  "PLAYLISTS": "Danh sách phát",
+  "HOME": {
+    "TITLE": "IPTVnator",
+    "SUBTITLE": "Vui lòng chọn một danh sách phát từ danh sách hoặc thêm danh sách phát mới",
+    "TABS": {
+      "RECENTLY_ADDED": "Danh sách phát mới thêm",
+      "FILE_UPLOAD": "Thêm bằng tải tệp lên",
+      "URL_UPLOAD": "Thêm bằng URL",
+      "TEXT_IMPORT": "Nhập từ văn bản",
+      "XTREME_IMPORT": "Thêm mã Xtream",
+      "STALKER_PORTAL_IMPORT": "Thêm Cổng Stalker"
+    },
+    "PLAYLISTS": {
+      "NO_PLAYLISTS": "Chưa có danh sách phát nào được thêm",
+      "ADD_FIRST": "Vui lòng thêm danh sách phát đầu tiên",
+      "ADDED_VIA_URL": "Đã thêm qua tải URL. URL:",
+      "ADDED_VIA_FILE": "Đã thêm qua tải tệp",
+      "XTREAM_PLAYLIST": "Danh sách phát Xtream",
+      "STALKER_PORTAL": "Cổng Stalker",
+      "CHANNELS": "Kênh",
+      "ADDED": "Đã thêm",
+      "SHOW_DETAILS": "Hiển thị chi tiết danh sách phát",
+      "REMOVE": "Xóa danh sách phát",
+      "SEARCH_PLAYLISTS": "Tìm kiếm danh sách phát theo tiêu đề",
+      "INFO_DIALOG": {
+        "PLAYLIST_DETAILS": "Chi tiết danh sách phát",
+        "TITLE": "Tiêu đề",
+        "FROM_URL": "Được thêm từ URL",
+        "IMPORT_DATE": "Ngày nhập",
+        "CHANNELS": "Số lượng kênh",
+        "CLOSE": "Đóng",
+        "SAVE": "Lưu",
+        "USER_AGENT": "Tác nhân người dùng",
+        "ORIGINAL_FILENAME": "Tên tệp gốc",
+        "FILE_PATH": "Đường dẫn tệp",
+        "UPDATE_FAILED": "Cập nhật danh sách phát lần cuối thất bại",
+        "AUTO_UPDATE": "Tự động cập nhật",
+        "AUTO_UPDATE_DESCRIPTION": "Nếu kích hoạt tự động làm mới, danh sách phát sẽ được cập nhật tự động mỗi khi khởi động ứng dụng.",
+        "CUSTOM_USER_AGENT": "Một số nhà cung cấp IPTV yêu cầu tác nhân người dùng cụ thể để phát danh sách phát.",
+        "EXPORT_PLAYLIST": "Xuất danh sách phát dưới dạng m3u",
+        "SERVER_URL": "URL máy chủ",
+        "USERNAME": "Tên người dùng",
+        "PASSWORD": "Mật khẩu",
+        "MAC_ADDRESS": "Địa chỉ MAC",
+        "PLAYLIST_EXPORT_SUCCESS": "Xuất danh sách phát thành công.",
+        "PLAYLIST_EXPORT_ERROR": "Lỗi: Xuất danh sách phát thất bại."
+      },
+      "REMOVE_DIALOG": {
+        "TITLE": "Xóa danh sách phát",
+        "MESSAGE": "Bạn có chắc chắn muốn xóa hoàn toàn danh sách phát này?",
+        "SUCCESS": "Đã xóa danh sách phát thành công"
+      },
+      "UPDATED": "Đã cập nhật",
+      "REFRESH": "Làm mới danh sách phát",
+      "GLOBAL_FAVORITES": "Mục yêu thích toàn cầu",
+      "GLOBAL_FAVORITES_DESCRIPTION": "Danh sách phát được tạo tự động từ tất cả các mục yêu thích",
+      "MY_PLAYLISTS": "Danh sách phát của tôi",
+      "MY_PLAYLISTS_SUBTITLE": "tất cả danh sách phát hiện có",
+      "PLAYLIST_UPDATE_SUCCESS": "Thành công! Danh sách phát đã được cập nhật.",
+      "PLAYLIST_UPDATE_ERROR": "Lỗi cập nhật chi tiết danh sách phát."
+    },
+    "FILE_UPLOAD": {
+      "DRAG_DROP": "Kéo và thả tệp vào đây",
+      "OR": "hoặc",
+      "CHOOSE_PLAYLIST": "chọn danh sách phát",
+      "REJECTED": "Tệp bị từ chối, định dạng không hỗ trợ {{filename}}."
+    },
+    "URL_UPLOAD": {
+      "PLAYLIST_URL": "URL danh sách phát (m3u, m3u8)",
+      "ADD_PLAYLIST": "Thêm danh sách phát",
+      "CORS_NOTE": "Lưu ý: Ứng dụng sử dụng dịch vụ Proxy công cộng để tránh sự cố CORS. Nếu danh sách phát chứa dữ liệu nhạy cảm, nên nhập từ tệp để đảm bảo an toàn."
+    },
+    "TEXT_IMPORT": {
+      "LABEL": "Chèn danh sách phát m3u(8) dạng văn bản",
+      "BUTTON_LABEL": "Nhập"
+    },
+    "XTREAM_PLAYLIST": {
+      "TITLE": "Playlist title",
+      "SERVER_URL": "URL máy chủ",
+      "USERNAME": "Tên người dùng",
+      "PASSWORD": "Mật khẩu",
+      "ADD": "Add",
+      "TEST_CREDENTIALS": "Test credentials",
+      "URL_VALIDATION_ERROR": "Should be a valid url with protocol (e.g. http://example.com or https://example.com:4324)"
+    },
+    "STALKER_PORTAL": {
+      "TITLE": "Tiêu đề",
+      "MAC_ADDRESS": "Địa chỉ MAC",
+      "SERVER_URL": "URL máy chủ",
+      "URL_VALIDATION_ERROR": "Should be a valid url with protocol (e.g. http://example.com/c or https://example.com/stalker_portal/c)",
+      "ADD": "Add"
+    },
+    "FILTER_BY_NAME": "Lọc theo tên",
+    "FILTER_BY_TYPE": "Lọc theo loại",
+    "SORT_PLAYLISTS": "Sắp xếp danh sách phát",
+    "SORT_BY": "Sắp xếp theo",
+    "SORT_OPTIONS": {
+      "NAME_ASC": "Tên (A-Z)",
+      "NAME_DESC": "Tên (Z-A)",
+      "NEWEST": "Ngày thêm (Mới nhất trước)",
+      "OLDEST": "Ngày thêm (Cũ nhất trước)"
+    },
+    "IMPORTED_AS_TEXT": "Imported as text",
+    "PARSING_ERROR": "Lỗi: Phân tích thất bại, không phải danh sách phát hợp lệ:"
+  },
+  "SETTINGS": {
+    "TITLE": "Cài đặt / IPTVnator",
+    "SUBTITLE": "Thay đổi cấu hình ứng dụng",
+    "DESCRIPTION": "Please adapt the options from the list below and confirm with the save changes button",
+    "EPG_URL_LABEL": "EPG Url (*.xml or *.xml.gz)",
+    "EPG_URL_PLACEHOLDER": "Enter an URL",
+    "REFRESH_EPG": "Refresh EPG",
+    "VIDEO_PLAYER_LABEL": "Video player",
+    "VIDEO_PLAYER_PLACEHOLDER": "Select an option",
+    "VERSION": "Version",
+    "SAVE_CHANGES": "Save changes",
+    "BACK_TO_HOME": "Trở lại",
+    "NEW_VERSION_AVAILABLE": "Có phiên bản mới khả dụng",
+    "LATEST_VERSION": "Bạn đang sử dụng phiên bản mới nhất",
+    "STREAM_FORMAT": "Định dạng luồng",
+    "LANGUAGE": "Language",
+    "SETTINGS_SAVED": "Thành công! Đã lưu cấu hình.",
+    "THEME": "Giao diện hiển thị",
+    "SHOW_CAPTIONS": "Hiển thị phụ đề",
+    "ADD_EPG_SOURCE": "Add EPG source",
+    "EPG_URL_ERROR": "The value is not a valid URL",
+    "VIDEO_PLAYER_DESCRIPTION": "Chọn trình phát video mặc định",
+    "STREAM_FORMAT_DESCRIPTION": "Chọn định dạng luồng mặc định (xtream)",
+    "LANGUAGE_DESCRIPTION": "Chọn ngôn ngữ cho ứng dụng",
+    "THEME_DESCRIPTION": "Chọn giao diện hiển thị cho ứng dụng",
+    "SHOW_CAPTIONS_DESCRIPTION": "Mặc định hiển thị hoặc ẩn phụ đề",
+    "VERSION_DESCRIPTION": "Phiên bản hiện tại của ứng dụng",
+    "EPG_NOTE": "Currently EPG is available only in the electron-based version of IPTVnator.",
+    "EPG_NOTE_URL_TEXT": "Check it here",
+    "IMPORT_EXPORT_DATA": "Import/export playlists",
+    "IMPORT_EXPORT_DATA_DESCRIPTION": "Export or import playlists in the JSON format used within the application.",
+    "IMPORT_DATA": "Nhập",
+    "EXPORT_DATA": "Export",
+    "REMOVE_ALL": "Remove playlists",
+    "REMOVE_ALL_BUTTON": "Remove",
+    "REMOVE_ALL_DESCRIPTION": "It will remove all existing playlists from the application.",
+    "REMOVE_DIALOG": {
+      "TITLE": "Remove all playlists",
+      "MESSAGE": "Are you sure you want to delete all playlist from the application?"
+    },
+    "IMPORT_ERROR": "Import error, please try with another file.",
+    "PLAYLISTS_REMOVED": "All playlists were removed.",
+    "MPV_PLAYER_PATH_LABEL": "mpv path",
+    "MPV_PLAYER_PATH_DESCRIPTION": "Set path to mpv player in your system. It will use the provided path to a mpv binary instead of using the one found in $PATH.",
+    "MPV_PLAYER_PATH": "mpv player path",
+    "VLC_PLAYER_PATH_LABEL": "VLC path",
+    "VLC_PLAYER_PATH_DESCRIPTION": "Set path to VLC player in your system. It will use the provided path to a VLC binary instead of the default path for our system.",
+    "VLC_PLAYER_PATH": "VLC player path",
+    "REMOTE_CONTROL": "Remote control",
+    "REMOTE_CONTROL_DESCRIPTION": "Enable remote control of the application.",
+    "REMOTE_CONTROL_PORT": "Remote control port",
+    "REMOTE_CONTROL_PORT_DESCRIPTION": "Port used for remote control of the application. Port 3000 is used by default."
+  },
+  "THEMES": {
+    "DARK_THEME": "Chủ đề tối",
+    "LIGHT_THEME": "Chủ đề sáng"
+  },
+  "CHANNELS": {
+    "SEARCH_CHANNEL": "Tìm kênh",
+    "UPLOAD_OR_SELECT_OTHER_PLAYLIST": "Upload or select other playlist",
+    "ALL_CHANNELS": "Tất cả kênh",
+    "GROUPS": "Nhóm",
+    "UNGROUPED": "Chưa phân nhóm",
+    "UNNAMED_CHANNEL": "Kênh chưa đặt tên",
+    "FAVORITES": "Yêu thích",
+    "NO_FAVORITES": "Chưa có mục yêu thích",
+    "USE_STAR_TO_FAVORITE": "Vui lòng sử dụng biểu tượng 'ngôi sao' để thêm kênh vào danh sách yêu thích.",
+    "REMOVE_FAVORITE": "Xóa khỏi yêu thích",
+    "FAVORITES_UPDATED": "Danh sách yêu thích đã được cập nhật!",
+    "SORT_BY": "Sắp xếp theo",
+    "SORT_BY_DATE": "Sắp xếp theo ngày thêm (Mới nhất trước)",
+    "SORT_BY_RATING": "Sắp xếp theo đánh giá",
+    "SORT_BY_NAME": "Sắp xếp theo tên (A-Z)"
+  },
+  "TOP_MENU": {
+    "OPEN_CHANNELS_LIST": "Mở danh sách kênh",
+    "TOGGLE_FAVORITE_FLAG": "Chuyển đổi yêu thích",
+    "OPEN_EPG_LIST": "Mở danh sách EPG",
+    "OPEN_MULTI_EPG": "Mở chế độ xem Multi-EPG"
+  },
+  "EPG": {
+    "TITLE": "Hướng dẫn chương trình điện tử",
+    "NEXT_DAY": "Ngày tiếp theo",
+    "PREVIOUS_DAY": "Ngày trước",
+    "LIVE_NOW": "Đang phát trực tiếp",
+    "LIVE_STREAM": "Phát trực tiếp",
+    "TIMESHIFT_AVAILABLE": "Timeshift is available, click to play",
+    "EPG_NOT_AVAILABLE_DATE": "Ooops, EPG is not available for the selected date",
+    "EPG_NOT_AVAILABLE_CHANNEL_TITLE": "Ooops, EPG is not available for this channel.",
+    "EPG_NOT_AVAILABLE_CHANNEL_DESCRIPTION": "Please add/change the URL of the EPG list in the settings of the app.",
+    "FETCH_EPG": "Đang lấy dữ liệu EPG...",
+    "ERROR": "Ooops, EPG could not be loaded.",
+    "DOWNLOAD_SUCCESS": "EPG was successfully downloaded.",
+    "PROGRAM_DIALOG": {
+      "PROGRAM_DETAILS": "Details about the TV program",
+      "TITLE": "Tiêu đề",
+      "CATEGORY": "Category",
+      "PARENTAL_RATING_SYSTEM": "Television content rating system",
+      "DESCRIPTION": "Description",
+      "LANGUAGE": "Language",
+      "SHOW_PROGRAM_DETAILS": "Show details about this program"
+    },
+    "FETCH_SUCCESS": "EPG was fetched successfully"
+  },
+  "LANGUAGES": {
+    "ARABIC": "العربية",
+    "MOROCCAN_ARABIC": "العربية (اللهجة المغربية)",
+    "ENGLISH": "English",
+    "KOREAN": "한국어",
+    "RUSSIAN": "Русский",
+    "GERMAN": "Deutsch",
+    "SPANISH": "Español",
+    "CHINESE": "简体中文",
+    "TRADITIONAL_CHINESE": "繁體中文",
+    "FRENCH": "Français",
+    "ITALIAN": "Italiano",
+    "TURKISH": "Türkçe",
+    "JAPANESE": "日本語",
+    "DUTCH": "Nederlands",
+    "BELARUSIAN": "Беларуская",
+    "POLISH": "Polski"
+  },
+  "YES": "Yes",
+  "NO": "No",
+  "MENU": {
+    "OPEN": "Open menu",
+    "SUPPORT_ARIA": "Support IPTVnator on GitHub",
+    "SETTINGS": "Settings",
+    "SETTINGS_ARIA": "Open settings",
+    "BUG_REPORT": "Report a bug",
+    "WHAT_IS_NEW": "What is new",
+    "ABOUT": "About",
+    "ABOUT_ARIA": "About the application",
+    "SUPPORT_PROJECT": "Support project"
+  },
+  "ABOUT": {
+    "TITLE": "About IPTVnator",
+    "DESCRIPTION": "Cross-platform IPTV player application with multiple features, such as support of m3u and m3u8 playlists, favorites, TV guide, TV archive/catchup and more.",
+    "VERSION": "Version",
+    "GITHUB_TOOLTIP": "ITPVnator repository on GitHub",
+    "BUY_ME_A_COFFEE_TOOLTIP": "Buy me a coffee",
+    "TWITTER_TOOLTIP": "Share on Twitter"
+  },
+  "UPDATE_AVAILABLE": "Update available",
+  "REFRESH": "Refresh",
+  "XTREAM": {
+    "PLAY": "Play",
+    "NAME": "Name",
+    "RELEASE_DATE": "Release date",
+    "GENRE": "Genre",
+    "COUNTRY": "Country",
+    "ACTORS": "Actors",
+    "DIRECTOR": "Director",
+    "DURATION": "Duration",
+    "CAST": "Cast",
+    "EPISODE_RUN_TIME": "Episode run time",
+    "RATING": "Rating",
+    "IMDB_RATING": " Rating IMDB",
+    "KINOPOISK_RATING": "Rating Kinopoisk",
+    "DESCRIPTION": "Description",
+    "YEAR": "Year",
+    "AGE": "Age",
+    "YOUTUBE_TRAILER": "YouTube Trailer",
+    "EPISODE": "Episode"
+  },
+  "PORTALS": {
+    "ALL_CATEGORIES": "All categories",
+    "MY_FAVORITES": "My favorites",
+    "ADD_TO_FAVORITES": "Add to favorites",
+    "REMOVE_FROM_FAVORITES": "Xóa khỏi yêu thích",
+    "REMOVED_FROM_FAVORITES": "Removed from favorites",
+    "ADDED_TO_FAVORITES": "Added to favorites",
+    "SIDEBAR": {
+      "MAIN": "Main",
+      "MOVIES": "Movies",
+      "LIVE_TV": "Live TV",
+      "SERIES": "Series",
+      "LIBRARY": "Library",
+      "SEARCH": "Search",
+      "RECENT": "Recent",
+      "FAVORITES": "Yêu thích",
+      "HOME": "Home",
+      "PLAYLIST_INFO": "Playlist info",
+      "ACCOUNT_INFO": "Account info"
+    },
+    "ERROR_VIEW": {
+      "ACCOUNT_EXPIRED": {
+        "TITLE": "Account expired",
+        "DESCRIPTION": "This account has been expired. Please check the credentials in playlist settings or remove it."
+      },
+      "UNAUTHORIZED": {
+        "TITLE": "Unauthorized",
+        "DESCRIPTION": "Please check the credentials in playlist settings or remove it."
+      },
+      "NOT_FOUND": {
+        "TITLE": "Portal not found",
+        "DESCRIPTION": "Please check the credentials and portal url in playlist settings or remove it."
+      },
+      "EMPTY_CATEGORY": {
+        "TITLE": "Empty category",
+        "DESCRIPTION": "This category has no content, please select another category or change the content type"
+      },
+      "UNKNOWN_ERROR": {
+        "TITLE": "Something went wrong",
+        "DESCRIPTION": "Unknown error, please try again later"
+      },
+      "PLAYLIST_SETTINGS": "Playlist Settings",
+      "HOME": "Home",
+      "DELETE": "Delete"
+    },
+    "EMPTY_LIST_VIEW": {
+      "NO_SEARCH_RESULTS": "Nothing found, try to change you search request"
+    },
+    "STREAM_URL_COPIED": "Stream URL copied to clipboard",
+    "COPY_STREAM_URL": "Copy Stream URL",
+    "SELECT_CATEGORY": "Select a category"
+  },
+  "INFORMATION": "Information",
+  "REMOTE_CONTROL": {
+    "TITLE": "Remote control",
+    "UP_CHANNEL": "Up channel",
+    "DOWN_CHANNEL": "Down channel",
+    "HEADER": "IPTVNator Remote Control",
+    "FOOTER": "IPTVNator Remote Control"
+  }
+}
